@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:background="#edf5f2"
+        android:layout_centerInParent="true"
+        >
+
+
+        <Button
+            android:id="@+id/onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@layout/star_button"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+        />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                >
+
+                <Button
+                    android:id="@+id/subirtemperatura"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="10dp"
+                    android:text="UP"
+                    />
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    ></LinearLayout>
+
+
+                <Button
+                    android:id="@+id/bajartemperatura"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="DN"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                >
+
+
+                <ImageView
+                    android:id="@+id/temperatura"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:contentDescription="temperatura"
+                    android:src="@drawable/temp24" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                >
+
+
+                <Button
+                    android:id="@+id/frio"
+                    android:layout_width="65dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    android:text="F"
+                    />
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    ></LinearLayout>
+
+
+                <Button
+                    android:id="@+id/calor"
+                    android:layout_width="65dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="C"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DomTec Manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_ambiente">Ambiente</string>
+    <string name="title_activity_dimmer">DimmerActivity</string>
+    <string name="title_activity_tv">TvActivity</string>
+    <string name="title_activity_aire">AireActivity</string>
+    <string name="title_activity_on_off">OnOff</string>
+</resources>
